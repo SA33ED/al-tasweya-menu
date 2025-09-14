@@ -11,7 +11,7 @@ export interface MenuItemData {
   image: string;
   prices: Array<{
     amount: string;
-    price: number;
+    price: string;
     unit: string;
   }>;
   category: string;
@@ -21,74 +21,108 @@ export interface MenuItemData {
 export const menuItems: MenuItemData[] = [
   {
     id: "1",
-    name: "كفتة مشوية",
+    name: "كفتة",
     image: koftaImg,
     prices: [
-      { amount: "كيلو", price: 850, unit: "" },
-      { amount: "اتنين كيلو", price: 1600, unit: "" },
-      { amount: "نص كيلو", price: 450, unit: "" }
+      { amount: "كيلو", price: "475 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "920 جنيه", unit: "" },
     ],
-    category: "لحوم مشوية",
-    description: "كفتة طازجة محضرة من أجود أنواع اللحم البقري مع الخضار والبهارات العربية الأصيلة"
+    category: "لحوم",
+    description: "كفته الحاتي الخطيرة "
   },
   {
     id: "2",
-    name: "شاورما لحمة",
+    name: "برجر بيتي",
     image: shawarmaImg,
     prices: [
-      { amount: "كيلو", price: 750, unit: "" },
-      { amount: "نص كيلو", price: 400, unit: "" },
-      { amount: "ربع كيلو", price: 220, unit: "" }
+      { amount: "كيلو", price: "425 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "820 جنيه", unit: "" },
     ],
-    category: "شاورما",
-    description: "شاورما لحمة طازجة مع الخضار والصلصات الشهية والخبز العربي الطازج"
+    category: "لحوم",
+    description: "برجر بيتي - الكيلو 12 قطعه كبيرة"
   },
   {
     id: "3",
-    name: "مشكل مشاوي",
+    name: "حواوشي",
     image: mixedGrillImg,
     prices: [
-      { amount: "كيلو", price: 950, unit: "" },
-      { amount: "نص كيلو", price: 500, unit: "" },
-      { amount: "طبق فردي", price: 180, unit: "" }
+      { amount: "كيلو", price: "400 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "770 جنيه", unit: "" },
     ],
-    category: "لحوم مشوية",
-    description: "تشكيلة متنوعة من اللحوم المشوية تشمل الكباب والكفتة وقطع اللحم الطازجة"
+    category: "لحوم",
+    description: "حواوشي بالخلطه السريه"
   },
   {
     id: "4",
-    name: "منسف أردني",
+    name: "كوردن بلو",
     image: mansafImg,
     prices: [
-      { amount: "طبق كبير", price: 320, unit: "" },
-      { amount: "طبق وسط", price: 220, unit: "" },
-      { amount: "طبق فردي", price: 150, unit: "" }
+      { amount: "كيلو", price: "370 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "710 جنيه", unit: "" },
     ],
-    category: "أطباق تراثية",
-    description: "منسف أردني أصيل مع لحم الغنم والأرز والجميد واللبن الرائب"
+    category: "فراخ",
+    description: "كوردن بلو محشي لانشون فراخ و لانشون لحمة حلواني + شرائح الجبنة الشيدر"
   },
   {
     id: "5",
-    name: "كبسة دجاج",
+    name: "بانية شركات",
     image: kabsaImg,
     prices: [
-      { amount: "دجاجة كاملة", price: 280, unit: "" },
-      { amount: "نص دجاجة", price: 160, unit: "" },
-      { amount: "طبق فردي", price: 120, unit: "" }
+      { amount: "كيلو", price: "270 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "510 جنيه", unit: "" },
     ],
-    category: "أرز ودجاج",
-    description: "كبسة دجاج على الطريقة السعودية مع الأرز البسمتي والبهارات الخاصة"
+    category: "فراخ",
+    description: "بانية شركات بالخلطة الخطيرة"
   },
   {
     id: "6",
-    name: "حمص بالطحينة",
+    name: "ناجتس فراخ",
     image: hummusImg,
     prices: [
-      { amount: "طبق كبير", price: 80, unit: "" },
-      { amount: "طبق وسط", price: 60, unit: "" },
-      { amount: "طبق صغير", price: 40, unit: "" }
+      { amount: "كيلو", price: "270 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "510 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "ناجتس فراخ بالخلطة الرهيبة"
+  },
+  {
+    id: "7",
+    name: "فراخ متبلة ع الشوي",
+    image: hummusImg,
+    prices: [
+      { amount: "حسب سعر اليوم والوزن", price: null, unit: "" },
+    ],
+    category: "فراخ",
+    description: "فراخ متبلة ع الشوي - حسب سعر اليوم والوزن"
+  },
+  {
+    id: "8",
+    name: "شاورما فراخ متبلة",
+    image: hummusImg,
+    prices: [
+      { amount: "حسب سعر اليوم", price: null, unit: "" },
+    ],
+    category: "فراخ",
+    description: "شاورما فراخ متبلة - حسب سعر اليوم"
+  },
+  {
+    id: "9",
+    name: "لمون مخلل",
+    image: hummusImg,
+    prices: [
+      { amount: "البرطمان", price: "50 جنيه", unit: "" },
     ],
     category: "مقبلات",
-    description: "حمص كريمي طازج مع زيت الزيتون والطحينة والصنوبر والخبز العربي"
-  }
+    description: "لمون مخلل بالعصفر وحبة البركه"
+  },
+  {
+    id: "10",
+    name: "هريسه الشطه",
+    image: hummusImg,
+    prices: [
+      { amount: "البرطمان", price: "35 جنيه", unit: "" },
+    ],
+    category: "مقبلات",
+    description: "هريسه الشطه الحارة والبارده"
+  },
 ];

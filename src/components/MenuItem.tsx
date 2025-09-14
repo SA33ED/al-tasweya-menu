@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 interface PriceOption {
   amount: string;
-  price: number;
+  price: string;
   unit: string;
 }
 
@@ -48,12 +48,12 @@ const MenuItem = ({ name, image, prices, category, description }: MenuItemProps)
             <div
               key={index}
               className="flex justify-between items-center py-2 px-3 rounded-lg bg-accent/50 hover:bg-accent transition-colors duration-200"
-            >
-              <span className="font-cairo text-lg font-bold text-primary">
-                {priceOption.price} جنيه
-              </span>
+            >              
               <span className="font-cairo text-foreground font-medium">
                 {priceOption.amount} {priceOption.unit}
+              </span>
+              <span className="font-cairo text-lg font-bold text-primary">
+                {priceOption.price}
               </span>
             </div>
           ))}

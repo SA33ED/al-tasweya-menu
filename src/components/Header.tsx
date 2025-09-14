@@ -12,21 +12,21 @@ const Header = () => {
       <div className="relative z-10 text-center space-y-6 animate-fade-in">
         <div className="space-y-4">
           <h1 className="font-amiri text-6xl md:text-8xl font-bold text-primary-foreground drop-shadow-lg">
-            مطعم ع التسويه
+            ع التسويه
           </h1>
           <div className="w-32 h-1 bg-primary-glow mx-auto rounded-full shadow-glow"></div>
         </div>
         
         <p className="font-cairo text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed px-4">
-          أشهى الأطباق العربية الأصيلة محضرة بحب وإتقان
+          مأكولات ع التسويه محضرة بحب وإتقان
         </p>
         
-        <div className="pt-4">
+        {/* <div className="pt-4">
           <div className="inline-flex items-center space-x-reverse space-x-2 bg-primary-foreground/20 backdrop-blur-sm rounded-full px-6 py-3 animate-slide-in-up">
             <span className="font-cairo text-primary-foreground font-semibold">منيو اليوم</span>
             <div className="w-2 h-2 bg-primary-glow rounded-full animate-pulse"></div>
           </div>
-        </div>
+        </div> */}
       </div>
       
       {/* تأثير التدرج */}

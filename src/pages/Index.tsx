@@ -25,11 +25,11 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="font-amiri text-4xl md:text-5xl font-bold text-foreground mb-4">
-            منيو المطعم
+            منيو ع التسويه
           </h2>
-          <p className="font-cairo text-lg text-muted-foreground max-w-2xl mx-auto">
+          {/* <p className="font-cairo text-lg text-muted-foreground max-w-2xl mx-auto">
             اختر من تشكيلة واسعة من الأطباق العربية الشهية المحضرة بأجود المكونات
-          </p>
+          </p> */}
         </div>
         
         {/* فلاتر الفئات */}
