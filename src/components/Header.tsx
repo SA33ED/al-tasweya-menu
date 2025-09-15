@@ -11,9 +11,7 @@ const Header = () => {
       {/* المحتوى الرئيسي */}
       <div className="relative z-10 text-center space-y-6 animate-fade-in">
         <div className="space-y-4">
-          <h1 className="font-amiri text-6xl md:text-8xl font-bold text-primary-foreground drop-shadow-lg">
-            ع التسويه
-          </h1>
+          <img src="src/assets/logo_bg.png" alt="ع التسويه" className="mx-auto w-40 md:w-64 drop-shadow-lg" />
           <div className="w-32 h-1 bg-primary-glow mx-auto rounded-full shadow-glow"></div>
         </div>
         

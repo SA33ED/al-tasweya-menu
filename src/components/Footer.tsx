@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gradient-accent text-secondary-foreground py-12 mt-16">
+          <footer className="text-secondary-foreground py-12 mt-16" style={{ backgroundColor: '#DC1D24' }}>
       <div className="container mx-auto px-4">
         <div className="text-center space-y-6">
           {/* اسم المطعم */}
