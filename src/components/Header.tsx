@@ -1,3 +1,5 @@
+import logoBg from '@/assets/logo_bg.png';
+
 const Header = () => {
   return (
     <header className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-hero">
@@ -11,7 +13,7 @@ const Header = () => {
       {/* المحتوى الرئيسي */}
       <div className="relative z-10 text-center space-y-6 animate-fade-in">
         <div className="space-y-4">
-          <img src="src/assets/logo_bg.png" alt="ع التسويه" className="mx-auto w-40 md:w-64 drop-shadow-lg" />
+          <img src={logoBg} alt="ع التسويه" className="mx-auto w-40 md:w-64 drop-shadow-lg" />
           <div className="w-32 h-1 bg-primary-glow mx-auto rounded-full shadow-glow"></div>
         </div>
         
