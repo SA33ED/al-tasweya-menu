@@ -9,6 +9,12 @@ import kordnImg from "@/assets/kordn.jpg";
 import ferakhImg from "@/assets/ferakh.jpg";
 import lamonImg from "@/assets/lamon.jpg";
 import rengaImg from "@/assets/renga.jpg";
+import koftaElferakh from "@/assets/kofta_elferakh.jpg";
+import burgerElferakh from "@/assets/burger_elferakh.jpg";
+import hawashiElferakhImg from "@/assets/hawawshi_elferakh.jpg";
+import stripsImg from "@/assets/strips.jpg";
+
+
 
 export interface MenuItemData {
   id: string;
@@ -139,5 +145,49 @@ export const menuItems: MenuItemData[] = [
     ],
     category: "مقبلات",
     description: "هريسه الشطه الحارة والبارده"
+  },
+  {
+    id: "12",
+    name: "كفته الفراخ",
+    image: koftaElferakh,
+    prices: [
+      { amount: "الكيلو", price: "270 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "كفته الفراخ بالخلطة السرية"
+  },
+  {
+    id: "13",
+    name: "برجر الفراخ",
+    image: burgerElferakh,
+    prices: [
+      { amount: "الكيلو", price: "270 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "برجر الفراخ بالخلطة السرية"
+  },
+  {
+    id: "14",
+    name: "حواوشي الفراخ",
+    image: hawashiElferakhImg,
+    prices: [
+      { amount: "الكيلو", price: "245 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "460 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "حواوشي الفراخ بالخلطة السرية"
+  },
+  {
+    id: "15",
+    name: "ستربس فراخ",
+    image: stripsImg,
+    prices: [
+      { amount: "الكيلو", price: "280 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "530 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "ستربس فراخ بالخلطة السرية"
   },
 ];
