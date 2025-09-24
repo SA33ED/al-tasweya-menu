@@ -191,3 +191,6 @@ export const menuItems: MenuItemData[] = [
     description: "ستربس فراخ بالخلطة السرية"
   },
 ];
+
+//npm run build
+//npm run deploy
