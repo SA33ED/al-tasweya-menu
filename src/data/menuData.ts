@@ -131,7 +131,7 @@ export const menuItems: MenuItemData[] = [
     name: "لمون مخلل",
     image: lamonImg,
     prices: [
-      { amount: "البرطمان", price: "50 جنيه", unit: "" },
+      { amount: "البرطمان", price: "60 جنيه", unit: "" },
     ],
     category: "مقبلات",
     description: "لمون مخلل بالعصفر وحبة البركه"
@@ -141,7 +141,7 @@ export const menuItems: MenuItemData[] = [
     name: "هريسه الشطه",
     image: harisaImg,
     prices: [
-      { amount: "البرطمان", price: "35 جنيه", unit: "" },
+      { amount: "البرطمان", price: "45 جنيه", unit: "" },
     ],
     category: "مقبلات",
     description: "هريسه الشطه الحارة والبارده"
