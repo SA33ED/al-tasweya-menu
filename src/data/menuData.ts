@@ -13,6 +13,11 @@ import koftaElferakh from "@/assets/kofta_elferakh.jpg";
 import burgerElferakh from "@/assets/burger_elferakh.jpg";
 import hawashiElferakhImg from "@/assets/hawawshi_elferakh.jpg";
 import stripsImg from "@/assets/strips.jpg";
+import bastermaImg from "@/assets/basterma.jpg";
+import koftaRozImg from "@/assets/kofta_roz.jpg";
+import zytonImg from "@/assets/zyton.jpg";
+import dababisImg from "@/assets/dababis.jpg";
+import saniaImg from "@/assets/sania.jpg";
 
 
 
@@ -189,6 +194,56 @@ export const menuItems: MenuItemData[] = [
     ],
     category: "فراخ",
     description: "ستربس فراخ بالخلطة السرية"
+  },
+  {
+    id: "16",
+    name: "بسطرمة لحمة مفرومه",
+    image: bastermaImg,
+    prices: [
+      { amount: "الكيلو", price: "475 جنيه", unit: "" },
+    ],
+    category: "لحوم",
+    description: "بسطرمة لحمة مفرومه بالخلطة السرية"
+  },
+  {
+    id: "17",
+    name: "كفتة رز لحمة جملي",
+    image: koftaRozImg,
+    prices: [
+      { amount: "الكيلو", price: "300 جنيه", unit: "" },
+    ],
+    category: "لحوم",
+    description: "كفتة رز لحمة جملي بالخلطة السرية"
+  },
+  {
+    id: "18",
+    name:"زيتون مخلل",
+    image: zytonImg,
+    prices: [
+      { amount: "البرطمان", price: "75 جنيه", unit: "" },
+    ],
+    category: "مقبلات",
+    description: "زيتون مخلل بالخلطة السرية"
+  },
+  {
+    id: "19",
+    name:"صنيه العزائم",
+    image: saniaImg,
+    prices: [
+      { amount: "سعر الصنيه", price: "1350 جنيه", unit: "" },
+    ],
+    category: "صواني",
+    description: "كيلو كفته لحمه + كيلو كفته فراخ + فرخه حوالي اتنين كيلو + كيلو رز بسمتي + سلطه دقوس + ليمون مخلل"
+  },
+  {
+    id: "20",
+    name:"دبابيس فراشه للشوي",
+    image: dababisImg,
+    prices: [
+      { amount: "حسب سعر اليوم", price: null, unit: "" },
+    ],
+    category: "فراخ",
+    description: "دبابيس فراشه متبلة - حسب سعر اليوم"
   },
 ];
 

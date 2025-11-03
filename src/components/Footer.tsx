@@ -14,6 +14,10 @@ const Footer = () => {
               <h4 className="font-cairo font-bold text-lg">اتصل بنا</h4>
               <p className="font-cairo font-bold text-lg">01021721249</p>
             </div>
+            <div className="space-y-2">
+              <h4 className="font-cairo font-bold text-lg">انستاباي للتحويل</h4>
+              <p className="font-cairo font-bold text-lg">01143020622</p>
+            </div>
 
         </div>
       </div>
