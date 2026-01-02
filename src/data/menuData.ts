@@ -18,6 +18,10 @@ import koftaRozImg from "@/assets/kofta_roz.jpg";
 import zytonImg from "@/assets/zyton.jpg";
 import dababisImg from "@/assets/dababis.jpg";
 import saniaImg from "@/assets/sania.jpg";
+import ferakhBardaMetabelaImg from "@/assets/ferakh_barda_metabela.jpg";
+import sogokBedonHang from "@/assets/sogok_bedon_hang.jpeg";
+import rengaFeleh from "@/assets/renga_feleh.jpg";
+import elleftImg from "@/assets/el_left.jpg";
 
 
 
@@ -41,7 +45,7 @@ export const menuItems: MenuItemData[] = [
     image: koftaImg,
     prices: [
       { amount: "كيلو", price: "475 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "920 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "930 جنيه", unit: "" },
     ],
     category: "لحوم",
     description: "كفته الحاتي الخطيرة "
@@ -52,7 +56,7 @@ export const menuItems: MenuItemData[] = [
     image: burgerImg,
     prices: [
       { amount: "كيلو", price: "425 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "820 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "830 جنيه", unit: "" },
     ],
     category: "لحوم",
     description: "برجر بيتي - الكيلو 12 قطعه كبيرة"
@@ -63,7 +67,7 @@ export const menuItems: MenuItemData[] = [
     image: hawashiImg,
     prices: [
       { amount: "كيلو", price: "400 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "770 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "780 جنيه", unit: "" },
     ],
     category: "لحوم",
     description: "حواوشي بالخلطه السريه"
@@ -74,7 +78,7 @@ export const menuItems: MenuItemData[] = [
     image: kordnImg,
     prices: [
       { amount: "كيلو", price: "370 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "710 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "720 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "كوردن بلو محشي لانشون فراخ و لانشون لحمة حلواني + شرائح الجبنة الشيدر"
@@ -85,7 +89,7 @@ export const menuItems: MenuItemData[] = [
     image: banehImg,
     prices: [
       { amount: "كيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "510 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "بانية شركات بالخلطة الخطيرة"
@@ -96,7 +100,7 @@ export const menuItems: MenuItemData[] = [
     image: nagetsImg,
     prices: [
       { amount: "كيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "510 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "ناجتس فراخ بالخلطة الرهيبة"
@@ -157,7 +161,7 @@ export const menuItems: MenuItemData[] = [
     image: koftaElferakh,
     prices: [
       { amount: "الكيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "530 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "كفته الفراخ بالخلطة السرية"
@@ -168,7 +172,7 @@ export const menuItems: MenuItemData[] = [
     image: burgerElferakh,
     prices: [
       { amount: "الكيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "530 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "برجر الفراخ بالخلطة السرية"
@@ -179,7 +183,7 @@ export const menuItems: MenuItemData[] = [
     image: hawashiElferakhImg,
     prices: [
       { amount: "الكيلو", price: "245 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "460 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "470 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "حواوشي الفراخ بالخلطة السرية"
@@ -190,7 +194,7 @@ export const menuItems: MenuItemData[] = [
     image: stripsImg,
     prices: [
       { amount: "الكيلو", price: "280 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "530 جنيه", unit: "" },
+      { amount: "اتنين كيلو", price: "540 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "ستربس فراخ بالخلطة السرية"
@@ -244,6 +248,48 @@ export const menuItems: MenuItemData[] = [
     ],
     category: "فراخ",
     description: "دبابيس فراشه متبلة - حسب سعر اليوم"
+  },
+  {
+    id: "21",
+    name:"فراخ بارده متبله",
+    image: ferakhBardaMetabelaImg,
+    prices: [
+      { amount: "الكيلو", price: "270 جنيه", unit: "" },
+      { amount: "متاح مستويه", price: "300 جنيه", unit: "" },
+    ],
+    category: "فراخ",
+    description: "فراخ بارده متبله جاهزه للشوي او مستويه"
+  },
+  {
+    id: "22",
+    name:"سجق بدون هنق",
+    image: sogokBedonHang,
+    prices: [
+      { amount: "الكيلو", price: "425 جنيه", unit: "" },
+    ],
+    category: "لحوم",
+    description: "سجق بدون هنق لحمة مفرومه متبله بالخلطه السريه"
+  },
+  {
+    id: "23",
+    name:"رنجه فليه مع البطروخ فقط بدون اضافات",
+    image: rengaFeleh,
+    prices: [
+      { amount: "العلبه نص كيلو", price: "230 جنيه", unit: "" },
+    ],
+    category: "رنجه",
+    description: "رنجه فليه مع البطروخ فقط بدون اضافات"
+  },
+  {
+    id: "24",
+    name:"اللفت الخطير",
+    image: elleftImg,
+    prices: [
+      { amount: "حسب سعر البرطمان", price: null, unit: "" },
+
+    ],
+    category: "مقبلات",
+    description: "اللفت الخطير مخلل بالخلطة السرية"
   },
 ];
 
