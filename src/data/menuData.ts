@@ -83,28 +83,28 @@ export const menuItems: MenuItemData[] = [
     category: "فراخ",
     description: "كوردن بلو محشي لانشون فراخ و لانشون لحمة حلواني + شرائح الجبنة الشيدر"
   },
-  {
-    id: "5",
-    name: "بانية شركات",
-    image: banehImg,
-    prices: [
-      { amount: "كيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
-    ],
-    category: "فراخ",
-    description: "بانية شركات بالخلطة الخطيرة"
-  },
-  {
-    id: "6",
-    name: "ناجتس فراخ",
-    image: nagetsImg,
-    prices: [
-      { amount: "كيلو", price: "270 جنيه", unit: "" },
-      { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
-    ],
-    category: "فراخ",
-    description: "ناجتس فراخ بالخلطة الرهيبة"
-  },
+  // {
+  //   id: "5",
+  //   name: "بانية شركات",
+  //   image: banehImg,
+  //   prices: [
+  //     { amount: "كيلو", price: "270 جنيه", unit: "" },
+  //     { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+  //   ],
+  //   category: "فراخ",
+  //   description: "بانية شركات بالخلطة الخطيرة"
+  // },
+  // {
+  //   id: "6",
+  //   name: "ناجتس فراخ",
+  //   image: nagetsImg,
+  //   prices: [
+  //     { amount: "كيلو", price: "270 جنيه", unit: "" },
+  //     { amount: "اتنين كيلو", price: "520 جنيه", unit: "" },
+  //   ],
+  //   category: "فراخ",
+  //   description: "ناجتس فراخ بالخلطة الرهيبة"
+  // },
   {
     id: "7",
     name: "فراخ متبلة ع الشوي",
