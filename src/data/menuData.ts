@@ -23,7 +23,7 @@ import sogokBedonHang from "@/assets/sogok_bedon_hang.jpeg";
 import rengaFeleh from "@/assets/renga_feleh.jpg";
 import elleftImg from "@/assets/el_left.jpg";
 import productsImg from "@/assets/product.jpeg";
-import lemonImg from "@/assets/lemon.jpg";
+import lemonImg from "@/assets/lemon.jpeg";
 
 
 
