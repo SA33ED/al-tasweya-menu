@@ -134,7 +134,7 @@ export const menuItems: MenuItemData[] = [
   {
     id: "9",
     name: "لمون مخلل",
-    image: lamonImg,
+    image: lemonImg,
     prices: [
       { amount: "البرطمان", price: "60 جنيه", unit: "" },
     ],
@@ -283,17 +283,7 @@ export const menuItems: MenuItemData[] = [
     category: "مقبلات",
     description: "اللفت الخطير مخلل بالخلطة السرية"
   },
-  {
-    id: "25",
-    name:"ليمون مخلل",
-    image: lemonImg,
-    prices: [
-      { amount: "الكيلو", price: "110 جنيه", unit: "" },
 
-    ],
-    category: "مقبلات",
-    description: "عدنا بعد الاجازه بالليمون المعصفر بدون نقطه مياه 😋"
-  },
     {
       id: "26",
       name:"فسيخ وسردين والبسريا",
