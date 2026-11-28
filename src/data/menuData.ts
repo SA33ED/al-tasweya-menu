@@ -18,6 +18,7 @@ import koftaRozImg from "@/assets/kofta_roz.jpg";
 import zytonImg from "@/assets/zyton.jpg";
 import dababisImg from "@/assets/dababis.jpg";
 import saniaImg from "@/assets/sania.jpg";
+import sanyaImg from "@/assets/sanya.jpeg";
 import ferakhBardaMetabelaImg from "@/assets/ferakh_barda_metabela.jpg";
 import sogokBedonHang from "@/assets/sogok_bedon_hang.jpeg";
 import rengaFeleh from "@/assets/renga_feleh.jpg";
@@ -49,7 +50,7 @@ export const menuItems: MenuItemData[] = [
       { amount: "كيلو", price: "500 جنيه", unit: "" },
     ],
     category: "لحوم",
-    description: "كفته الحاتي الخطيرة "
+    description: "كفته الحاتي الخطيرة بدون برغل "
   },
   {
     id: "2",
@@ -136,17 +137,17 @@ export const menuItems: MenuItemData[] = [
     name: "لمون مخلل",
     image: lemonImg,
     prices: [
-      { amount: "البرطمان", price: "60 جنيه", unit: "" },
+      { amount: "الكيلو", price: "110 جنيه", unit: "" },
     ],
     category: "مقبلات",
-    description: "لمون مخلل بالعصفر وحبة البركه"
+    description: "لمون مخلل بدون نقطه مياه"
   },
   {
     id: "10",
     name: "هريسه الشطه",
     image: harisaImg,
     prices: [
-      { amount: "البرطمان", price: "45 جنيه", unit: "" },
+      { amount: "البرطمان", price: "حسب سعر اليوم", unit: "" },
     ],
     category: "مقبلات",
     description: "هريسه الشطه الحارة والبارده"
@@ -216,7 +217,7 @@ export const menuItems: MenuItemData[] = [
     name:"زيتون مخلل",
     image: zytonImg,
     prices: [
-      { amount: "البرطمان", price: "75 جنيه", unit: "" },
+      { amount: "الكيلو", price: "110 جنيه", unit: "" },
     ],
     category: "مقبلات",
     description: "زيتون مخلل بالخلطة السرية"
@@ -224,7 +225,7 @@ export const menuItems: MenuItemData[] = [
   {
     id: "19",
     name:"صنيه العزائم",
-    image: saniaImg,
+    image: sanyaImg,
     prices: [
       { amount: "سعر الصنيه", price: "1350 جنيه", unit: "" },
     ],
