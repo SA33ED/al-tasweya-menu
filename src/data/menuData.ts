@@ -77,7 +77,7 @@ export const menuItems: MenuItemData[] = [
     name: "كوردن بلو",
     image: kordnImg,
     prices: [
-      { amount: "كيلو", price: "370 جنيه", unit: "" },
+      { amount: "كيلو", price: "380 جنيه", unit: "" },
     ],
     category: "فراخ",
     description: "كوردن بلو محشي لانشون فراخ و لانشون لحمة حلواني + شرائح الجبنة الشيدر"
